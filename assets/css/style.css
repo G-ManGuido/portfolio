@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "didact";
+  src: url(../fonts/Didact_Gothic/DidactGothic-Regular.ttf);
+}
+@font-face {
+  font-family: "fjalla";
+  src: url(../fonts/Fjalla_One/FjallaOne-Regular.ttf);
+}
+@font-face {
+  font-family: "work";
+  src: url(../fonts/Work_Sans/WorkSans-VariableFont_wght.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+BODY{size: 1440px;
+margin: 0 auto;
+background: chocolate;}
+
+H1{
+  font-family: "didact";
+  font-size: 6.25rem;
+  text-align: center;
+  font-weight: 100;
+  position: absolute;
+  width: 43.75rem;
+  height: 16.25rem;
+  left: 22.5rem;
+  top: 6.438rem;
+}
+H2 {
+  font-family: "work";
+  font-size: 6.25rem;
+
+}
