@@ -19,11 +19,10 @@
   box-sizing: border-box;
 }
 body{
-  width: 1440px;
   margin: 0 auto;
   margin: 1rem auto 2rem auto;
-  background: #fff;}
-
+  background: #fff;
+}
 h1, h2, h3 {
   text-transform: uppercase;
 }
@@ -51,17 +50,14 @@ header h1{
   font-weight: normal;
   margin: 0.6em auto;
 }
-
 section:nth-of-type(1){
   text-align: center;
   width: 700px;
   margin: 0 auto;
 }
-
 section:nth-of-type(1) img{
   width: 80%;
 }
-
 section:nth-of-type(1) h2{
   font-family: 'work';
   font-size: 10rem;
@@ -72,7 +68,7 @@ section:nth-of-type(1) h2{
 section:not(:first-child){
   height: 100vh;
   position: relative;
-  padding: 5em 5em 10em 12.4em;
+  padding: 5em 5em 10em 11em;
 }
 
 /* Alle SECTIONs außer der ersten (WORK) und der letzten (MORE) */
@@ -134,7 +130,6 @@ section:nth-of-type(even):not(:last-child) a:hover + h3{
 /* Alle UNGERADEN sections außer der ersten (WORK) */
 section:nth-of-type(odd):not(:first-child){
   height: 160vh;
-  padding-left: 12.4em;
 }
 section:nth-of-type(odd):not(:first-child) a:hover{
   background: #000;
@@ -142,7 +137,7 @@ section:nth-of-type(odd):not(:first-child) a:hover{
   text-decoration: none;
 }
 section:nth-of-type(odd):not(:first-child) a:hover + h3{
-  color: #000;
+  color: #333;
 }
 
 /* Bilder und Hintergründe */
@@ -151,15 +146,16 @@ section:nth-of-type(2){
 }
 section:nth-of-type(3){
   background: url(../img/portfolio3.png) no-repeat center/134%;
-  padding: 16em 10em;
+  padding: 16em 11em;
 }
 section:nth-of-type(4){
   background: url(../img/portfolio4.jpg) no-repeat center/cover
 }
 section:nth-of-type(5){
   background: url(../img/portfolio5.png) no-repeat center/125%;
-  padding: 16em 10em;
+  padding: 16em 11em;
 }
+
 /* MORE Section */
 section:nth-of-type(6){
   background: #000;
@@ -176,10 +172,9 @@ section:nth-of-type(6) h2{
   text-transform: unset;
 }
 section:nth-of-type(6) h2::first-letter{
-  font-size: 13.5rem;
+  font-size: 14rem;
   font-weight: 300;
 }
-
 section:nth-of-type(6) p{
   font-family: 'Work';
   font-size: 1.313rem;
@@ -203,19 +198,25 @@ section:nth-of-type(6) a{
 /* FOOTER */
 footer{
   height: 165vh;
+  width: 80%;
+  margin: 0 auto;
   text-align: center;
 }
 footer nav{
   margin: 10rem 0;
 }
-footer nav a{
+li {list-style: none;
+padding: 3.5rem 0;
+}
+footer nav ul li  a{
   font-family: 'didact';
   font-size: 10rem;
   color: #000;
   margin-bottom: 9.375rem;
-  display: block;
+  padding-bottom: 20rem;
   text-transform: unset;
 }
+
 /* Animation */
 footer i{
   animation: Animation 2s ease-in 0s infinite normal forwards;
@@ -224,11 +225,9 @@ footer i{
   0% {
     transform: scale(1);
   }
-
   50% {
     transform: scale(1.5);
   }
-
   100% {
     transform: scale(1);
   }
