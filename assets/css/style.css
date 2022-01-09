@@ -21,7 +21,7 @@
 body{
   width: 1440px;
   margin: 0 auto;
-  margin: 1rem 0 2rem 0;
+  margin: 1rem auto 2rem auto;
   background: chocolate;}
 
 h1, h2, h3 {
