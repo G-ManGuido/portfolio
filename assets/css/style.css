@@ -15,9 +15,42 @@
   padding: 0;
   box-sizing: border-box;
 }
-BODY{size: 1440px;
-margin: 0 auto;
-background: chocolate;}
+body{
+  size: 1440px;
+  margin: 0 auto;
+  margin: 1rem 0 2rem 0;
+  background: chocolate;}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+header p{
+  font-family: 'work';
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+
+section:nth-of-type(1){
+  text-align: center;
+  width: 700px;
+  margin: 0 auto;
+}
+section:nth-of-type(1) h1{
+  font-family: 'didact';
+  font-size: 6.25rem;
+  font-weight: normal;
+  margin: 0.6em auto;
+}
+section:nth-of-type(1) img{
+  width: 80%;
+}
+section:nth-of-type(1) h2{
+  font-size: 9em;
+  font-family: 'work';
+  font-weight: 400;
+  margin: .8em 0;
+}
 
 
 footer{
