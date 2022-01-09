@@ -24,6 +24,12 @@ body{
 h1, h2 {
   text-transform: uppercase;
 }
+a {
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
 header p{
   font-family: 'work';
   text-align: center;
@@ -46,8 +52,8 @@ section:nth-of-type(1) img{
   width: 80%;
 }
 section:nth-of-type(1) h2{
-  font-size: 9em;
   font-family: 'work';
+  font-size: 10rem;
   font-weight: 400;
   margin: .8em 0;
 }
@@ -58,15 +64,15 @@ footer{
   text-align: center;
 }
 footer nav{
-  margin: 10em 0;
+  margin: 10rem 0;
 }
 footer nav a{
-  text-transform: unset;
-  font-family: 'Didact Gothic', sans-serif;
-  font-size: 150px;
+  font-family: 'didact';
+  font-size: 10rem;
   color: #000;
-  margin-bottom: .8em;
+  margin-bottom: 9.375rem;
   display: block;
+  text-transform: unset;
 }
 footer i{
   animation: myAnim 2s ease-in 0s infinite normal forwards;
