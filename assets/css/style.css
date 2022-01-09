@@ -21,7 +21,7 @@ body{
   margin: 1rem 0 2rem 0;
   background: chocolate;}
 
-h1, h2 {
+h1, h2, h3 {
   text-transform: uppercase;
 }
 a {
@@ -30,24 +30,30 @@ a {
 a:hover{
   text-decoration: underline;
 }
+
+header{
+  text-align: center;
+  width: 700px;
+  margin: 0 auto;
+}
 header p{
   font-family: 'work';
   text-align: center;
   font-size: 1.25rem;
 }
-
+header h1{
+  font-family: 'didact';
+  font-size: 6.25rem;
+  font-weight: normal;
+  margin: 0.6em auto;
+}
 
 section:nth-of-type(1){
   text-align: center;
   width: 700px;
   margin: 0 auto;
 }
-section:nth-of-type(1) h1{
-  font-family: 'didact';
-  font-size: 6.25rem;
-  font-weight: normal;
-  margin: 0.6em auto;
-}
+
 section:nth-of-type(1) img{
   width: 80%;
 }
@@ -57,6 +63,28 @@ section:nth-of-type(1) h2{
   font-weight: 400;
   margin: .8em 0;
 }
+section:not(:first-child){
+  height: 100vh;
+  position: relative;
+  padding: 5em 5em 10em 10em;
+}
+section:not(:first-child):not(:last-child) p{
+  margin-bottom: 2em;
+  font-family: 'work';
+  font-size: 1.25rem;
+  color: #666;
+}
+section:not(:first-child):not(:last-child) p:nth-of-type(2){
+  margin-bottom: 6em;
+}
+section:not(:first-child):not(:last-child) h2{
+  margin-bottom: .4em;
+  font-family: 'didact';
+  font-size: 7rem;
+  font-weight: normal;
+}
+
+
 
 
 footer{
