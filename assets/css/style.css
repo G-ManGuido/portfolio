@@ -145,7 +145,7 @@ section:nth-of-type(odd):not(:first-child) a:hover + h3{
 
 /* Bilder und Hintergründe */
 section:nth-of-type(2){
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/portfolio2.jpg) no-repeat center/105%
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/portfolio2.jpg) no-repeat center/1440px;
 }
 section:nth-of-type(3){
   background: url(../img/portfolio3.png) no-repeat center/134%;
